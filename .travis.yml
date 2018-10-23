@@ -6,7 +6,7 @@ php:
   - '5.6'
   - '7.0'
 
-script: phpunit --bootstrap www/api.php
+script: phpunit --bootstrap www/api.php test
 
 env:
   - DB=mysql
