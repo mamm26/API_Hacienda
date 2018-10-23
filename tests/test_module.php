@@ -9,7 +9,7 @@ $datas = array(
 );
 
 // POST
-if (file_exists('/www/api.php'))
+if (file_exists('../www/api.php'))
     echo "Check 1";
 
 if (file_exists(__DIR__ . '/www/api.php'))
@@ -17,7 +17,7 @@ if (file_exists(__DIR__ . '/www/api.php'))
 
 echo __DIR__;
 
-$curl = curl_init('/www/api.php');
+$curl = curl_init('../www/api.php');
 curl_setopt($curl, CURLOPT_POST, 1);
 curl_setopt($curl, CURLOPT_POSTFIELDS, $datas);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
