@@ -7,10 +7,10 @@ php:
   - '7.0'
 
 before_script:
-  - cd www && cp settings.php.dist settings.php
+  - cd www && cp settings.php.dist settings.php && cd ../test
 
 script:
-  - phpunit --bootstrap api.php test
+  - phpunit --bootstrap test_module.php test
 
 env:
   - DB=mysql
