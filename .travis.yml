@@ -10,3 +10,6 @@ script: phpunit
 
 env:
   - DB=mysql
+
+script:
+  - phpunit
