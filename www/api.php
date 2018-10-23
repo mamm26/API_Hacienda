@@ -7,7 +7,7 @@
 // Cambiamos zona horaria a Costa Rica
 date_default_timezone_set("America/Costa_Rica");
 
-if (file_exists("settings.php"))
+if (file_exists("settings.php")
     include_once("settings.php");
 else
 {
