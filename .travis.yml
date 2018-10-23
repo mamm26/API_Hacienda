@@ -7,7 +7,7 @@ php:
   - '7.0'
 
 before_script:
- - cp www/settings.php.dist www/settings.php
+ - echo -e "cp www/settings.php.dist www/settings.php"
 
 script: phpunit --bootstrap www/api.php test
 
