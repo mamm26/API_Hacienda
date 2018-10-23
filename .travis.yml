@@ -10,7 +10,7 @@ before_script:
   - cd www && cp settings.php.dist settings.php
 
 script:
-  - phpunit --bootstrap www/api.php test
+  - phpunit --bootstrap api.php test
 
 env:
   - DB=mysql
