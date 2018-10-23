@@ -6,10 +6,11 @@ php:
   - '5.6'
   - '7.0'
 
-before_install:
-  cp www/settings.php.dist www/settings.php
+before_script:
+  - cd www && cp settings.php.dist settings.php
 
-script: phpunit --bootstrap www/api.php test
+script:
+  - phpunit --bootstrap www/api.php test
 
 env:
   - DB=mysql
