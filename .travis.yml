@@ -10,7 +10,7 @@ before_script:
   - cd tests
 
 script:
-  - phpunit --bootstrap ./test_module.php
+  - phpunit --bootstrap test_module.php test
 
 env:
   - DB=mysql
