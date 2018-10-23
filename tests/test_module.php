@@ -15,6 +15,8 @@ if (file_exists('/www/api.php'))
 if (file_exists(__DIR__ . '/www/api.php'))
     echo "Check 2";
 
+echo __DIR__;
+
 $curl = curl_init('/www/api.php');
 curl_setopt($curl, CURLOPT_POST, 1);
 curl_setopt($curl, CURLOPT_POSTFIELDS, $datas);
