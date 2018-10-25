@@ -4,6 +4,7 @@
 Somos una comunidad de individuos y organizaciones que voluntariamente unimos esfuerzos para colaborar y compartir conocimiento, crear software libre para resolver problemas que enfrentamos en nuestra realidad en Costa Rica.
 
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/110353e6ee614867822011a242acab00)](https://app.codacy.com/app/mamm26/API_Hacienda?utm_source=github.com&utm_medium=referral&utm_content=mamm26/API_Hacienda&utm_campaign=Badge_Grade_Dashboard)
 [![GitHub](https://img.shields.io/github/license/CRLibre/API_Hacienda.svg)](https://github.com/CRLibre/API_Hacienda/blob/master/LICENSE) 
 [![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/CRLibre/API_Hacienda.svg?logo=github)](https://github.com/CRLibre/API_Hacienda/commits/master) 
 [![GitHub issues](https://img.shields.io/github/issues-raw/CRLibre/API_Hacienda.svg)](https://github.com/CRLibre/API_Hacienda/issues) 
